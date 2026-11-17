@@ -22,3 +22,6 @@ WebGL is required. Audio starts only after the user presses Sound. Reduced-motio
 
 ## License
 Original application source: MIT. Three.js is MIT licensed; see vendor/LICENSE.three.txt.
+
+## Expanded layout
+The concept footprint is now 20 × 16 scene units, compared with the original 12 × 10. A long central hallway separates the larger rooms. The living room includes a widescreen TV displaying original winter artwork, a media console, two larger sofas, an armchair, and a separate fireplace. Dining seats eight; the expanded kitchen island has four stools. Dimensions describe the visualization, not a measured construction plan.
