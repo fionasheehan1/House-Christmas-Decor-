@@ -25,3 +25,6 @@ Original application source: MIT. Three.js is MIT licensed; see vendor/LICENSE.t
 
 ## Expanded layout
 The concept footprint is now 20 × 16 scene units, compared with the original 12 × 10. A long central hallway separates the larger rooms. The living room includes a widescreen TV displaying original winter artwork, a media console, two larger sofas, an armchair, and a separate fireplace. Dining seats eight; the expanded kitchen island has four stools. Dimensions describe the visualization, not a measured construction plan.
+
+## Colonial inspiration update
+The user-supplied Colonial/Federal, cozy sitting-room, and Chris Loves Julia kitchen references informed original modeled details: white arched casings and paneling, a blue-gray fanlight entrance, traditional lanterns, warm dark timber, patterned rugs, blue-and-cream textiles, framed landscapes, and cream cabinetry with an olive island and brass dish pendants. Reference photographs are not bundled or used as textures. All textile patterns, artwork and stone/wood textures are generated locally in canvas. The house remains a stylized concept rather than a photorealistic recreation.
