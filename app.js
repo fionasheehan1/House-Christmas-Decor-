@@ -38,7 +38,7 @@ function rug(x,z,w,d,color='#7c2931'){const c=document.createElement('canvas');c
 function candle(x,y,z,h=.25){cyl(x,y+h/2,z,.065,h,M.white);bulb(x,y+h+.035,z,.035);}
 function sofa(x,z,width=4.4,rotation=0){const g=new THREE.Group();g.position.set(x,0,z);g.rotation.y=rotation;scene.add(g);box(0,.57,0,width,.55,1.15,M.sofa,g);box(0,1,.44,width,.78,.24,M.sofa,g);for(const side of [-1,1]){box(side*(width/2-.1),.72,0,.3,.6,1.2,M.sofa,g);const arm=mesh(new THREE.CylinderGeometry(.18,.18,1.13,16),M.sofa,side*(width/2-.1),1.03,0,g);arm.rotation.x=Math.PI/2;}const n=Math.round(width/.8);for(let i=0;i<n;i++)box(-width/2+.4+i*(width-.8)/(n-1),.9,-.06,(width-.4)/n-.03,.16,.88,M.cream,g);for(const side of [-1,1]){let o=box(side*(width/2-.55),1.19,.17,.47,.47,.15,side<0?blueFabric:ticking,g);o.rotation.z=side*.12;}for(const xx of [-width/2+.2,width/2-.2])for(const zz of [-.4,.4])cyl(xx,.18,zz,.065,.3,M.darkwood,g,.04);return g;}
 rug(-5.65,-2.5,6.7,5.9);tree(-8.65,-6.2,2.95);
-sofa(-6,-.25,4.8);sofa(-8.35,-2.65,3.1,Math.PI/2);sofa(-2.3,-2.2,1.3,-Math.PI/2);
+sofa(-6,-.25,4.8);sofa(-8.35,-2.65,3.1,-Math.PI/2);sofa(-2.3,-2.2,1.3,Math.PI/2);
 box(-5.6,.57,-2.7,2,.14,1.25,M.darkwood);for(let x of [-6.35,-4.85])for(let z of [-3.12,-2.28])box(x,.28,z,.08,.5,.08,M.wood);box(-5.6,.69,-2.7,.5,.1,.37,M.green);candle(-6.15,.65,-2.5,.23);candle(-5.95,.65,-2.95,.31);
 // Separate television on a low media console; the screen is original canvas artwork.
 box(-6.35,.46,-7.28,3.8,.86,.75,M.darkwood);for(let x of [-7.65,-6.35,-5.05]){box(x,.47,-6.88,1.17,.62,.035,M.wood);box(x,.63,-6.84,.28,.035,.04,M.brass);}box(-6.35,1.95,-7.28,3.45,1.98,.14,M.black);
